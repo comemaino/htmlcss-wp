@@ -78,7 +78,7 @@ li a {
 
 .jumbotron {
     position: relative;
-    height: 32em;
+    height: 35vh;
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: 50%;
@@ -130,7 +130,7 @@ li a {
 
 .frame {
     position: relative;
-    height: 12em;
+    height: 12vh;
     overflow: hidden;
 }
 
