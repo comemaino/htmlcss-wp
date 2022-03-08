@@ -40,8 +40,8 @@ html {
     margin-bottom: 2em;
 }
 
-.br05 {
-    border-radius: .5em;
+.br10 {
+    border-radius: 1em;
 }
 
 .overlay::before {
@@ -78,14 +78,14 @@ li a {
 
 .jumbotron {
     position: relative;
-    height: 24em;
+    height: 32em;
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: 50%;
     overflow: hidden;
 }
 
-.banner-text {
+.jumbo-text {
     position: absolute;
     bottom: 2.4em;
     left: 1.5em;
@@ -94,7 +94,7 @@ li a {
     color: #ffffff;
 }
 
-.banner-text h2 {
+.jumbo-text h2 {
     font-size: 1.9em;
     font-weight: 400;
 }
@@ -119,19 +119,18 @@ li a {
 }
 
 .col-center {
-    width: calc(60% - 2em);
+    width: calc(56% - 2em);
     margin: 0 1em;   
 }
 
-.col-right,
-.col-left {
-    width: 20%;
+.col-left, 
+.col-right{
+    width: 22%;
 }
 
 .frame {
     position: relative;
-    height: 10em;
-    border-radius: .5em;
+    height: 12em;
     overflow: hidden;
 }
 
@@ -142,6 +141,15 @@ li a {
     width: 100%;
     margin: auto;
     z-index: -1;
+}
+
+.col-left img {
+    top: 30px;
+}
+
+.col-right img{
+    left: -20px;
+    width: 140%;
 }
 
 .col h4 {
